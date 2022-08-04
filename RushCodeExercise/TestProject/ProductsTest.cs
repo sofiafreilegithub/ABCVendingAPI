@@ -21,7 +21,7 @@ namespace TestProject
             warehouseProvider.Setup(x =>
                 x.GetWarehouseInventoryByUserId(It.IsAny<int>()))
                 .Returns(
-                    new List<Inventory>() { new Inventory() { ProductName = "mockProduct", WarehouseName = "mockWarehouse"} }
+                    new List<Inventory>() { new Inventory() { ProductName = "mockProduct", WarehouseName = "mockWarehouse" } }
                 );
 
             var controller = new InventoryController(warehouseProvider.Object);
@@ -31,7 +31,7 @@ namespace TestProject
             var response = (ObjectResult)objResult.Result;
             var statusCode = response.StatusCode;
             ////Assert
-            Assert.IsTrue(statusCode==200);
+            Assert.IsTrue(statusCode == 200);
         }
 
 
@@ -69,8 +69,9 @@ namespace TestProject
                 x.GetWarehouseInventory())
                 .Returns(
                         new List<Inventory>() { new Inventory() {
-                            ProductName = "mockProductCountUpdate",
+                            WarehouseId = 1,
                             WarehouseName = "mockWarehouse",
+                            ProductName = "mockProductCountUpdate",
                             ProductCategoryName = "mockCategory",
                             ProductCount = 55  //note count here
                         }
@@ -80,12 +81,12 @@ namespace TestProject
             var warehouseProvider = new WarehouseInventoryProvider(warehouseService.Object);
 
             ////Act
-            var objResult = warehouseProvider.UpdateWarehouseInventory(15);
+            var objResult = warehouseProvider.UpdateWarehouseInventory(1, "mockProductCountUpdate", 16);
             var response = objResult.ToArray();
 
             ////Assert
             Assert.AreEqual(response[0].ProductName, "mockProductCountUpdate");
-            Assert.AreEqual(response[0].ProductCount, 40); //Note reduced count here
+            Assert.AreEqual(response[0].ProductCount, 16); //Note reduced count here
 
         }
 

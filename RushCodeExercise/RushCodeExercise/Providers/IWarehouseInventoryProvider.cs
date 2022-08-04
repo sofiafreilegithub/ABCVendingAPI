@@ -10,6 +10,6 @@ namespace RushCodeExercise.Providers
     {
         List<Inventory> GetWarehouseInventoryByUserId(int userId);
 
-        List<Inventory> UpdateWarehouseInventory(int units);
+        List<Inventory> UpdateWarehouseInventory(int warehouseId, string productName, int updatedUnitCount);
     }
 }

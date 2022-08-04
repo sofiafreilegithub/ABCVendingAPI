@@ -12,3 +12,17 @@ C:\Users\sofia\source\repos\RushCodeExercise\RushCodeExercise\obj\Debug\netcorea
 C:\Users\sofia\source\repos\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.dll
 C:\Users\sofia\source\repos\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.pdb
 C:\Users\sofia\source\repos\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.csprojAssemblyReference.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\bin\Debug\netcoreapp2.1\RushCodeExercise.deps.json
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\bin\Debug\netcoreapp2.1\RushCodeExercise.runtimeconfig.json
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\bin\Debug\netcoreapp2.1\RushCodeExercise.runtimeconfig.dev.json
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\bin\Debug\netcoreapp2.1\RushCodeExercise.dll
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\bin\Debug\netcoreapp2.1\RushCodeExercise.pdb
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.csprojAssemblyReference.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.csproj.CoreCompileInputs.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.RazorAssemblyInfo.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.RazorAssemblyInfo.cs
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.AssemblyInfoInputs.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.AssemblyInfo.cs
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.RazorTargetAssemblyInfo.cache
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.dll
+C:\Users\sofia\OneDrive\Documents\GitHub\RushCodeExercise\ABCVendingAPI\RushCodeExercise\RushCodeExercise\obj\Debug\netcoreapp2.1\RushCodeExercise.pdb

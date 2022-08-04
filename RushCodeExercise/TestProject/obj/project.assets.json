@@ -8933,11 +8933,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\TestProject\\TestProject.csproj",
+      "projectUniqueName": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\TestProject\\TestProject.csproj",
       "projectName": "TestProject",
-      "projectPath": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\TestProject\\TestProject.csproj",
+      "projectPath": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\TestProject\\TestProject.csproj",
       "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\TestProject\\obj\\",
+      "outputPath": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\TestProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8956,8 +8956,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj": {
-              "projectPath": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj"
+            "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj": {
+              "projectPath": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj"
             }
           }
         }

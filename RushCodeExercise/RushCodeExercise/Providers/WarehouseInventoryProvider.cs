@@ -20,16 +20,35 @@ namespace RushCodeExercise.Providers
         public List<Inventory> GetWarehouseInventoryByUserId(int userId)
         {
             var response = Service.GetWarehouseInventory();
-            return response;
+            return OrderItems(response);
         }
 
-        public List<Inventory> UpdateWarehouseInventory(int units)
+        public List<Inventory> UpdateWarehouseInventory(int warehouseId, string productName, int updatedUnitCount)
         {
             var currentInventory = Service.GetWarehouseInventory();
-            currentInventory.ForEach(x => x.ProductCount = x.ProductCount - units);
 
-            return currentInventory;
+            var productToUpdate = currentInventory.Where(p => p.WarehouseId == warehouseId && p.ProductName == productName).First();
 
+            if (productToUpdate != null)
+            {
+                currentInventory.Remove(productToUpdate);
+                currentInventory.Add(new Inventory()
+                {
+                    WarehouseId = warehouseId,
+                    WarehouseName = productToUpdate.WarehouseName,
+                    ProductCategoryName = productToUpdate.ProductCategoryName,
+                    ProductName = productName,
+                    ProductCount = updatedUnitCount
+                });
+            }
+
+            return OrderItems(currentInventory);
+
+        }
+
+        private List<Inventory> OrderItems(List<Inventory> currentInventory)
+        {
+            return currentInventory.OrderBy(o => o.WarehouseId).ThenBy(o => o.ProductCategoryName).ToList();
         }
     }
 }

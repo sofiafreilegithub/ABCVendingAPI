@@ -30,13 +30,13 @@ namespace RushCodeExercise
             services.AddCors(options =>
             {
                 options.AddPolicy("AnyOrigin", builder =>
-                    {
-                        builder
-                            .AllowAnyOrigin()
-                            .AllowAnyHeader()
-                            .AllowAnyMethod();
+                {
+                    builder
+                        .AllowAnyOrigin()
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
 
-                    });
+                });
             });
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);

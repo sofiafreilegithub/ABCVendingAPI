@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj",
+      "projectUniqueName": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj",
       "projectName": "RushCodeExercise",
-      "projectPath": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj",
+      "projectPath": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\RushCodeExercise\\RushCodeExercise.csproj",
       "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sofia\\source\\repos\\RushCodeExercise\\RushCodeExercise\\obj\\",
+      "outputPath": "C:\\Users\\sofia\\OneDrive\\Documents\\GitHub\\RushCodeExercise\\ABCVendingAPI\\RushCodeExercise\\RushCodeExercise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

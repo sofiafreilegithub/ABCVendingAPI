@@ -16,7 +16,7 @@ namespace RushCodeExercise.Controllers
     {
         protected IWarehouseInventoryProvider Provider;
 
-        public InventoryController (IWarehouseInventoryProvider provider)
+        public InventoryController(IWarehouseInventoryProvider provider)
         {
             Provider = provider;
         }
@@ -29,12 +29,13 @@ namespace RushCodeExercise.Controllers
             return new OkObjectResult(response);
         }
 
-        [HttpGet("api/updateinventory/{units}")]
-        public ActionResult<IEnumerable<Inventory>> UpdateInventory([FromRoute] int units)
+        [HttpGet("api/updateinventory/{warehouseId}/{productName}/{updatedUnitCount}")]
+        public ActionResult<IEnumerable<Inventory>> UpdateInventory([FromRoute] int warehouseId, string productName, int updatedUnitCount)
         {
-            var response = Provider.UpdateWarehouseInventory(units);
+            var response = Provider.UpdateWarehouseInventory(warehouseId, productName, updatedUnitCount);
 
             return new OkObjectResult(response);
         }
     }
 }
+
